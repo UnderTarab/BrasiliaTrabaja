@@ -1,1 +1,147 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Acerca de | BrasiliaTrabaja</title><link rel="stylesheet" href="menu/css3menu1/style.css"><link rel="stylesheet" href="mejoras.css"></head><body><header><center><div class="slider"><ul><li><img src="imagenes/IMG1.png" alt="BrasiliaTrabaja"></li><li><img src="imagenes/BANNER1.png" alt="Banner del proyecto"></li><li><img src="imagenes/BANNER2.png" alt="Empleo en Bosa"></li><li><img src="imagenes/logo1.png" alt="Logo BrasiliaTrabaja"></li></ul></div></center></header><nav><center><br><ul id="css3menu1" class="topmenu"><li><a href="index.html">Inicio</a></li><li><a href="ogeneral.html">Objetivos</a></li><li><a href="problema.html">Problema</a></li><li><a href="teorico.html">Marco Teórico</a></li><li><a href="descubrir.html">Metodología</a></li><li><a href="cronograma.html">Cronograma</a></li><li><a href="materiales.html">Materiales y recursos</a></li><li><a href="costos.html">Costos</a></li><li><a href="borrador.html">Boceto - Borrador</a></li><li><a href="proyecto.html">Proyecto</a></li><li><a href="conclusiones.html">Conclusiones</a></li><li><a href="bibliografia.html">Bibliografía</a></li><li><a href="acerca.html">Acerca de</a></li></ul><br></center></nav><div class="page-layout"><section><center><h1>ACERCA DE</h1></center><article><p>BrasiliaTrabaja es un proyecto de diseño multimedial desarrollado por Nicolás Martínez, Paula Gómez y Sebastián Acuña en el contexto del Colegio Brasilia Bosa.</p><p>La propuesta integra investigación, diseño visual y programación web para plantear una solución que acerque oportunidades laborales a la comunidad.</p></article></section><aside><h2>Nuestro enfoque</h2><p>Aprender mediante un proyecto real, conectado con las necesidades de las familias, los egresados y el entorno del colegio.</p></aside></div><footer>BrasiliaTrabaja · Proyecto de diseño multimedial · Colegio Brasilia Bosa.</footer></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acerca de | BrasiliaTrabaja</title>
+  <link rel="stylesheet" href="menu/css3menu1/style.css">
+  <link rel="stylesheet" href="mejoras.css">
+
+  <style>
+    .tarjetas-equipo {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+      margin: 24px 0;
+    }
+
+    .tarjeta-persona {
+      overflow: hidden;
+      border: 1px solid #d5ddd6;
+      border-radius: 12px;
+      background: #fff;
+      color: #26332b;
+      box-shadow: 0 4px 12px #00000018;
+    }
+
+    .tarjeta-persona img {
+      display: block;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .contenido-tarjeta {
+      padding: 20px;
+    }
+
+    .contenido-tarjeta h2 {
+      margin: 0 0 6px;
+    }
+
+    .contenido-tarjeta h3 {
+      margin: 0 0 14px;
+      font-size: 1rem;
+      font-weight: normal;
+    }
+
+    .contenido-tarjeta p {
+      line-height: 1.6;
+    }
+
+    @media (max-width: 700px) {
+      .tarjetas-equipo {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <center>
+      <div class="slider">
+        <ul>
+          <li><img src="imagenes/IMG1.png" alt="BrasiliaTrabaja"></li>
+          <li><img src="imagenes/BANNER1.png" alt="Banner del proyecto"></li>
+          <li><img src="imagenes/BANNER2.png" alt="Empleo en Bosa"></li>
+          <li><img src="imagenes/logo1.png" alt="Logo BrasiliaTrabaja"></li>
+        </ul>
+      </div>
+    </center>
+  </header>
+
+  <nav>
+    <center>
+      <br>
+      <ul id="css3menu1" class="topmenu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="ogeneral.html">Objetivos</a></li>
+        <li><a href="problema.html">Problema</a></li>
+        <li><a href="teorico.html">Marco Teórico</a></li>
+        <li><a href="descubrir.html">Metodología</a></li>
+        <li><a href="cronograma.html">Cronograma</a></li>
+        <li><a href="materiales.html">Materiales y recursos</a></li>
+        <li><a href="costos.html">Costos</a></li>
+        <li><a href="borrador.html">Boceto - Borrador</a></li>
+        <li><a href="proyecto.html">Proyecto</a></li>
+        <li><a href="conclusiones.html">Conclusiones</a></li>
+        <li><a href="bibliografia.html">Bibliografía</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+      </ul>
+      <br>
+    </center>
+  </nav>
+
+  <div class="page-layout">
+    <section class="acerca">
+      <center><h1>ACERCA DE</h1></center>
+
+      <div class="tarjetas-equipo">
+        <article class="tarjeta-persona">
+          <img src="imagenes/nicolas-avatar%20(1).jpeg" alt="Nicolás Martínez">
+          <div class="contenido-tarjeta">
+            <h2>Nicolás Martínez</h2>
+            <h3>Estudiante de grado once</h3>
+            <p>
+              Nicolás Martínez es estudiante de grado once del Colegio Brasilia
+              Bosa I.E.D. Se interesa especialmente por la literatura y las
+              ciencias políticas, y disfruta comprender el mundo desde diferentes
+              perspectivas. Es curioso, extrovertido y espontáneo. Su capacidad
+              para analizar y expresar sus ideas, junto con su carisma y
+              sensibilidad, hacen parte de su personalidad.
+            </p>
+          </div>
+        </article>
+
+        <article class="tarjeta-persona">
+          <img src="imagenes/acu%C3%B1a-avatar.jpeg" alt="Sebastián Acuña">
+          <div class="contenido-tarjeta">
+            <h2>Sebastián Acuña</h2>
+            <h3>Estudiante de grado once</h3>
+            <p>
+              Sebastián Acuña es estudiante de grado once del Colegio Brasilia
+              Bosa I.E.D. Se destaca por su liderazgo, creatividad y carisma.
+              Disfruta la comunicación, la música y los espacios creativos, y busca
+              aportar a su comunidad mediante sus ideas y proyectos. Es espontáneo,
+              soñador y perseverante cuando se propone una meta.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <aside>
+      <h2>Nuestro enfoque</h2>
+      <p>
+        Aprender mediante un proyecto real, conectado con las necesidades de las
+        familias, los egresados y el entorno del colegio.
+      </p>
+    </aside>
+  </div>
+
+  <footer>
+    BrasiliaTrabaja · Proyecto de diseño multimedial · Colegio Brasilia Bosa.
+  </footer>
+</body>
+</html>
