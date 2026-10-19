@@ -76,3 +76,30 @@ footer{background:var(--morado-oscuro);color:var(--crema);border-top:5px solid v
 .purpose-visual{margin:14px 0 18px;padding:8px;background:rgba(255,255,255,.56);border:1px solid rgba(120,83,148,.2);border-radius:13px}
 .purpose-visual img{display:block;width:100%;height:auto;border-radius:9px}
 .purpose-visual figcaption{margin-top:7px;text-align:center;font-size:12px;line-height:1.4;color:#5d5065}
+
+/* Diseño equilibrado para la página de objetivos específicos */
+.objetivos-page{max-width:1260px;margin:26px auto 34px;padding:0 22px;color:#30283a}
+.objetivos-intro{max-width:none;margin:0;padding:28px 34px;background:#fffdf8;border:1px solid #e1d6e8;border-top:6px solid #75459a;border-radius:20px;box-shadow:var(--sombra)}
+.objetivos-eyebrow{margin:0 0 9px;color:#75459a;font-size:13px;font-weight:800;letter-spacing:.13em}
+.objetivos-intro h1{margin:0 0 10px;font-family:Georgia,'Times New Roman',serif;font-size:clamp(30px,4vw,44px);line-height:1.12;color:#36243f}
+.objetivos-intro>p:last-child{max-width:900px;margin:0;color:#4f4754;font-size:17px;line-height:1.65}
+.objetivos-roadmap{max-width:1080px;margin:20px auto 24px;padding:10px 14px;background:#fff;border:1px solid #e6dfe9;border-radius:20px;box-shadow:var(--sombra)}
+.objetivos-roadmap img{display:block;width:100%;height:auto;border-radius:14px}
+.objetivos-roadmap figcaption{padding:8px 5px 2px;text-align:center;color:#665b69;font-size:13px}
+.objetivos-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}
+.objetivos-page .objetivo-card{max-width:none;margin:0;padding:23px 22px;background:#fff;border:1px solid #e6dfe9;border-top:5px solid #368467;border-radius:18px;box-shadow:var(--sombra)}
+.objetivos-page .objetivo-diseno{border-top-color:#8a60a5}
+.objetivos-page .objetivo-evaluacion{border-top-color:#d18a3b}
+.objetivo-numero{display:inline-block;margin-bottom:13px;padding:6px 10px;background:#e8f4ee;border-radius:999px;color:#276b50;font-size:11px;font-weight:800;letter-spacing:.08em}
+.objetivo-diseno .objetivo-numero{background:#f0e8f5;color:#68438e}
+.objetivo-evaluacion .objetivo-numero{background:#fff1df;color:#945512}
+.objetivos-page .objetivo-card h2{margin:0 0 11px;color:#34283b;font-size:21px;line-height:1.28}
+.objetivos-page .objetivo-card>p{margin:0 0 14px;color:#514a55;font-size:15px;line-height:1.58}
+.objetivo-resultado{margin-top:10px;padding:11px 12px;background:#f7f5f8;border-radius:10px;color:#514a55;font-size:13px;line-height:1.5}
+.objetivo-resultado strong{color:#493558}
+.objetivos-cierre{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:start;margin:20px 0 0;padding:20px 23px;background:linear-gradient(120deg,#efe5f6,#e7f2eb);border:1px solid #d8c8e2;border-radius:16px}
+.objetivo-cierre-icono{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:#714690;color:#fff;font-size:26px;font-weight:700}
+.objetivos-cierre h2{margin:0 0 6px;color:#392847;font-size:19px}
+.objetivos-cierre p{margin:0;color:#514a55;font-size:15px;line-height:1.58}
+@media(max-width:980px){.objetivos-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.objetivo-evaluacion{grid-column:1/-1}}
+@media(max-width:640px){.objetivos-page{padding:0 14px;margin:16px auto 24px}.objetivos-intro{padding:22px 20px}.objetivos-intro>p:last-child{font-size:15px}.objetivos-roadmap{padding:7px;margin:14px auto 18px}.objetivos-roadmap figcaption{font-size:12px}.objetivos-grid{grid-template-columns:1fr}.objetivo-evaluacion{grid-column:auto}.objetivos-page .objetivo-card{padding:20px}.objetivos-cierre{grid-template-columns:38px 1fr;padding:16px}.objetivo-cierre-icono{width:36px;height:36px;font-size:22px}}
