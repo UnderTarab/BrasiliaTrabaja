@@ -159,3 +159,16 @@ body>section,body>section>section{min-height:0}
 
 /* Evitar que la barra lateral se estire y deje paneles vacíos */
 .page-layout{align-items:start}
+
+/* Encabezados de contenido no deben heredar el banner global */
+.content-hero{display:block;background:#fffdf8!important;padding:26px 32px!important;border-bottom:0!important}
+.method-map{max-width:820px;margin:16px auto 18px;padding:8px 11px;background:#fff;border:1px solid #e4d9eb;border-radius:17px;box-shadow:var(--sombra)}
+.method-map img{display:block;width:100%;height:auto;border-radius:12px}
+.method-map figcaption{padding:7px 4px 2px;text-align:center;color:#655a68;font-size:12px}
+/* Mantener la navegación compacta en una sola fila en pantallas amplias */
+nav center{max-width:none!important;width:100%;margin:0 auto}
+ul#css3menu1{display:flex!important;flex-wrap:nowrap!important;justify-content:space-between!important;width:100%!important;max-width:none!important;overflow:visible!important}
+ul#css3menu1>li{display:block!important;float:none!important;flex:0 0 auto!important}
+ul#css3menu1>li>a{white-space:nowrap;font-size:clamp(10px,.82vw,13px)!important;padding:9px clamp(4px,.45vw,8px)!important}
+@media(max-width:1050px){ul#css3menu1{flex-wrap:wrap!important;justify-content:center!important;gap:2px}ul#css3menu1>li>a{font-size:12px!important;padding:8px 7px!important}}
+@media(max-width:620px){.content-hero{padding:21px 19px!important}.method-map{padding:6px;margin:12px auto 15px}.method-map figcaption{font-size:11px}}
