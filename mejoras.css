@@ -70,3 +70,9 @@ footer{background:var(--morado-oscuro);color:var(--crema);border-top:5px solid v
 .tech-note h3{margin-top:0;color:#75450a}
 .ref-intro{font-size:16px}
 @media(max-width:620px){.metric-grid,.icon-grid{grid-template-columns:1fr}.figure-wide{padding:8px}.phase-list li{padding-right:12px}}
+
+.page-layout .aside-proposito h2{margin:0 0 12px;color:#342341}
+.page-layout .aside-proposito p{font-size:15px;line-height:1.55;margin:0 0 14px}
+.purpose-visual{margin:14px 0 18px;padding:8px;background:rgba(255,255,255,.56);border:1px solid rgba(120,83,148,.2);border-radius:13px}
+.purpose-visual img{display:block;width:100%;height:auto;border-radius:9px}
+.purpose-visual figcaption{margin-top:7px;text-align:center;font-size:12px;line-height:1.4;color:#5d5065}
