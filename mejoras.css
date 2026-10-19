@@ -156,3 +156,6 @@ body>section,body>section>section{min-height:0}
 .schedule-note{margin-top:18px}
 @media(max-width:900px){.content-card-grid,.theory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.problem-flow{grid-template-columns:1fr}.problem-flow>b{transform:rotate(90deg)}.problem-metrics{grid-template-columns:1fr}.schedule-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.content-page{margin:16px auto 24px;padding:0 14px}.content-hero{padding:21px 19px}.content-hero>p:last-child{font-size:15px}.content-card-grid,.theory-grid,.problem-cards,.schedule-grid{grid-template-columns:1fr}.content-page .content-card{padding:19px}.content-visual{padding:7px;margin:14px auto 18px}.content-visual figcaption{font-size:12px}.problem-flow>div{min-height:0}.problem-metrics{gap:9px}.schedule-step{min-height:0}.theory-bridge{gap:8px;padding:12px 8px;font-size:11px}.content-callout{padding:17px 18px}}
+
+/* Evitar que la barra lateral se estire y deje paneles vacíos */
+.page-layout{align-items:start}
